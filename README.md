@@ -4,12 +4,13 @@ This tool uses GitHub API to get email addresses from commit log of user/organis
 
 It can be operated with/without GitHub API token.
 
-How to:
+## How to:
 
 ```
-git clone https://github.com/hackstep/github-osint
+git clone https://github.com/vulnbe/github-osint.git
 cd github-osint
-python github-osint.py hackstep
+pip install -r requirements.txt
+python github-osint.py --owner vulnbe
 ```
 
 If you reach the API request limit, then use [token](https://github.com/settings/tokens).
