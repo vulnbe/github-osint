@@ -106,7 +106,7 @@ def main(args):
 if __name__ == '__main__':
   print_banner()
   parser = argparse.ArgumentParser(description=
-    'Small intelligence tool for retriving info about github organisation\'s or user\'s commit log')
+    'Small intelligence tool for retrieving info about github organisation\'s or user\'s commit log')
   parser.add_argument('--owner', required=True, help='user or organisation name, eg. vulnbe')
   parser.add_argument('--forks', action='store_true', help='include forks')
   parser.add_argument('--verbose', action='store_true', help='show debug info')
